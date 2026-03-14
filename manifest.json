@@ -4,7 +4,7 @@
   "title": "Download Notifier",
   "description": "Sends notifications when downloads are complete",
   "icon": "icon.png",
-  "version": "0.1.0",
+  "version": "1.0",
   "homepage": "https://github.com/your-username/download-notifier",
   "repository": {
     "url": "https://github.com/your-username/download-notifier.git"
