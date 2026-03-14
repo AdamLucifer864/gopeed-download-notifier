@@ -1,0 +1,46 @@
+{
+  "author": "your-username",
+  "name": "download-notifier",
+  "title": "Download Notifier",
+  "description": "Sends notifications when downloads are complete",
+  "icon": "icon.png",
+  "version": "0.1.0",
+  "homepage": "https://github.com/your-username/download-notifier",
+  "repository": {
+    "url": "https://github.com/your-username/download-notifier.git"
+  },
+  "scripts": [
+    {
+      "name": "onResolve",
+      "match": {
+        "urls": [
+          "<all_urls>"
+        ]
+      },
+      "entry": "main.js"
+    }
+  ],
+  "settings": [
+    {
+      "name": "notifyOnAll",
+      "title": "Notify on all downloads",
+      "description": "Send notification for every completed download",
+      "type": "boolean",
+      "value": true
+    },
+    {
+      "name": "notifySound",
+      "title": "Play sound with notification",
+      "description": "Play a sound alert when download completes",
+      "type": "boolean",
+      "value": true
+    },
+    {
+      "name": "minFileSize",
+      "title": "Minimum file size (MB)",
+      "description": "Only notify for files larger than this size",
+      "type": "number",
+      "value": 0
+    }
+  ]
+}
