@@ -84,7 +84,7 @@ function sendNotification(download) {
   
   // Create notification message
   const message = {
-    title: 'Download Complete! 🎉',
+    title: 'Download Completed',
     body: `${download.name} has finished downloading`,
     icon: 'icon.png',
     silent: !settings.notifySound
